@@ -38,19 +38,16 @@ Flask Installation:
 
 ## Install Flask and the GCS library using:
 '''
-    bash
     pip install flask google-cloud-storage
 '''
 ## Service Account Key:
 
 Ensure the service account key file is configured for authentication:
 ''
-    bash
     export GOOGLE_APPLICATION_CREDENTIALS="path/to/service-account.json"
     HTML Template (templates/index.html):
 '''
 '''
-html
 
     <!doctype html>
     <html>
