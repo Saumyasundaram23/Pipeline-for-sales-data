@@ -46,7 +46,6 @@ Flask Installation:
 Ensure the service account key file is configured for authentication:
 ''
     bash
-    Copy code
     export GOOGLE_APPLICATION_CREDENTIALS="path/to/service-account.json"
     HTML Template (templates/index.html):
 '''
