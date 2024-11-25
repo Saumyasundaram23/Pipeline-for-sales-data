@@ -37,17 +37,17 @@ The service account must have appropriate permissions (e.g., Storage Object Admi
 Flask Installation:
 
 ## Install Flask and the GCS library using:
-'''
+
     pip install flask google-cloud-storage
-'''
+
 ## Service Account Key:
 
 Ensure the service account key file is configured for authentication:
-''
+
     export GOOGLE_APPLICATION_CREDENTIALS="path/to/service-account.json"
     HTML Template (templates/index.html):
-'''
-'''
+
+html
 
     <!doctype html>
     <html>
@@ -62,4 +62,4 @@ Ensure the service account key file is configured for authentication:
         </form>
     </body>
     </html>
-'''
+
